@@ -1,5 +1,4 @@
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
-console.log(Notify);
 import flatpickr from "flatpickr"; 
 import 'flatpickr/dist/flatpickr.min.css';
 
@@ -15,6 +14,7 @@ const refs = {
 //* необходимые переменные  
 let currentTime = null;
 let intervalId = null;
+let userTime = null;
 const ZERO_TIMER_VALUE = '00';
 
 //* добавляю неактивность кнопки start
